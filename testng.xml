@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel ="tests">
+  <test name="Test">
+  <parameter name="browser" value="chrome" />
+    <classes>
+      <class name="script.VerifyLoginLogout"/>
+      <class name="script.VerifyLoginPage"/>
+      <class name="script.Demo"/>
+      <class name="script.VerifyVersion"/>
+      <class name="script.VerifyInvalidLogin"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

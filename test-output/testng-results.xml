@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[Title is matching]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching]]>
+    </line>
+    <line>
+      <![CDATA[Title is not matching]]>
+    </line>
+    <line>
+      <![CDATA[actiTIME - Enter Time-Track]]>
+    </line>
+    <line>
+      <![CDATA[actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[actiTIME 2015.2]]>
+    </line>
+    <line>
+      <![CDATA[Error message is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Error message is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Error message is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Error message is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Error message is not displayed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="95471" started-at="2017-03-21T01:45:07Z" finished-at="2017-03-21T01:46:43Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="95471" started-at="2017-03-21T01:45:07Z" finished-at="2017-03-21T01:46:43Z">
+      <class name="script.VerifyLoginLogout">
+        <test-method status="PASS" signature="precondition(java.lang.String)[pri:0, instance:script.VerifyLoginLogout@23a2f9]" name="precondition" is-config="true" duration-ms="12674" started-at="2017-03-21T07:15:07Z" finished-at="2017-03-21T07:15:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="testVerifyLoginLogout()[pri:0, instance:script.VerifyLoginLogout@23a2f9]" name="testVerifyLoginLogout" duration-ms="31242" started-at="2017-03-21T07:15:20Z" finished-at="2017-03-21T07:15:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testVerifyLoginLogout -->
+        <test-method status="PASS" signature="postcondition()[pri:0, instance:script.VerifyLoginLogout@23a2f9]" name="postcondition" is-config="true" duration-ms="1027" started-at="2017-03-21T07:15:51Z" finished-at="2017-03-21T07:15:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- script.VerifyLoginLogout -->
+      <class name="script.VerifyInvalidLogin">
+        <test-method status="PASS" signature="precondition(java.lang.String)[pri:0, instance:script.VerifyInvalidLogin@1aeed2f]" name="precondition" is-config="true" duration-ms="4454" started-at="2017-03-21T07:16:31Z" finished-at="2017-03-21T07:16:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="testVerifyInvalidLogin()[pri:0, instance:script.VerifyInvalidLogin@1aeed2f]" name="testVerifyInvalidLogin" duration-ms="6759" started-at="2017-03-21T07:16:35Z" finished-at="2017-03-21T07:16:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Error message is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Error message is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Error message is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Error message is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Error message is not displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testVerifyInvalidLogin -->
+        <test-method status="PASS" signature="postcondition()[pri:0, instance:script.VerifyInvalidLogin@1aeed2f]" name="postcondition" is-config="true" duration-ms="733" started-at="2017-03-21T07:16:42Z" finished-at="2017-03-21T07:16:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- script.VerifyInvalidLogin -->
+      <class name="script.Demo">
+        <test-method status="PASS" signature="verifytest()[pri:0, instance:script.Demo@17e2f02]" name="verifytest" duration-ms="16135" started-at="2017-03-21T07:16:09Z" finished-at="2017-03-21T07:16:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[actiTIME - Enter Time-Track]]>
+            </line>
+            <line>
+              <![CDATA[actiTIME - Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifytest -->
+      </class> <!-- script.Demo -->
+      <class name="script.VerifyLoginPage">
+        <test-method status="PASS" signature="precondition(java.lang.String)[pri:0, instance:script.VerifyLoginPage@c0edeb]" name="precondition" is-config="true" duration-ms="3911" started-at="2017-03-21T07:15:52Z" finished-at="2017-03-21T07:15:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="testVerifyLoginPage()[pri:0, instance:script.VerifyLoginPage@c0edeb]" name="testVerifyLoginPage" duration-ms="11578" started-at="2017-03-21T07:15:56Z" finished-at="2017-03-21T07:16:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is not matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testVerifyLoginPage -->
+        <test-method status="PASS" signature="postcondition()[pri:0, instance:script.VerifyLoginPage@c0edeb]" name="postcondition" is-config="true" duration-ms="738" started-at="2017-03-21T07:16:08Z" finished-at="2017-03-21T07:16:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- script.VerifyLoginPage -->
+      <class name="script.VerifyVersion">
+        <test-method status="PASS" signature="precondition(java.lang.String)[pri:0, instance:script.VerifyVersion@7fa833]" name="precondition" is-config="true" duration-ms="3822" started-at="2017-03-21T07:16:25Z" finished-at="2017-03-21T07:16:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="testVerifyVersion()[pri:0, instance:script.VerifyVersion@7fa833]" name="testVerifyVersion" duration-ms="1513" started-at="2017-03-21T07:16:29Z" finished-at="2017-03-21T07:16:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[actiTIME 2015.2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testVerifyVersion -->
+        <test-method status="PASS" signature="postcondition()[pri:0, instance:script.VerifyVersion@7fa833]" name="postcondition" is-config="true" duration-ms="791" started-at="2017-03-21T07:16:30Z" finished-at="2017-03-21T07:16:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- script.VerifyVersion -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
